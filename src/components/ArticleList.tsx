@@ -20,9 +20,9 @@ interface ArticleListProps {
 const ArticleList = ({ articles }: ArticleListProps) => {
     const article = articles.map((article) => <li><Art article={article} /></li>)
     return (
-        <>
+        <ul>
             {article}
-        </>
+        </ul>
     )
 }
 
