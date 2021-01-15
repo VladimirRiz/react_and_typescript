@@ -16,10 +16,11 @@ interface ArticleList {
 
 const Art = ({ article }: ArticleList) => {
     return (
-        <>
+        <div>
             <h1>{article.title}</h1>
+            <button>Click</button>
             <section>{article.text}</section>
-        </>
+        </div>
     )
 }
 
